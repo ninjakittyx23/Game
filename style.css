@@ -1,0 +1,22 @@
+  .class1 {float: left; margin: 10px; background: #a442f4; width: 100px; height: 100px; cursor: pointer;
+  }
+
+  .class2 {float: left; margin: 10px; background: #41f4f4; width: 100px; height: 100px; cursor: pointer;
+  }
+  .text {
+ text-align: center;
+ font-weight: bold; 
+ color: white;
+}
+
+.class1 {
+ text-align: center;
+ font-weight: bold; 
+ color: white;
+}
+
+.class2 {
+ text-align: center;
+ font-weight: bold; 
+ color: white;
+}

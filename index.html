@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+
+<div id="menu1">
+    <button id="new" class="class2 text" onclick="randomNum()">New numbers</button>
+    <div id="num1" class="class1 text">0</div>
+    <div id="num2" class="class1 text">0</div>
+    <div id="points" class="class1 text">0</div>
+</div>
+
+    
+
+
+ <form>
+    <input type="number" id="myNumber" value="0">Answer
+     <p>Guess the sum of ze thing, and then click the submit button.</p>
+     <button type="button" onclick="checkAnswer()">Submit</button>
+     
+ </form>
+       <p id="demo"></p>
+        <audio id="correct">
+            <source src="correct.ogg">
+        </audio>
+          
+        <audio id="wrong">
+            <source src="wrong.ogg">
+        </audio>      
+       <script src="app.js"></script>
+  </body>
+</html>
